@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8714340A241CAD6700A04FF4 /* ClusterAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87143407241CAD6700A04FF4 /* ClusterAnnotationView.swift */; };
+		8714340B241CAD6700A04FF4 /* Cycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87143408241CAD6700A04FF4 /* Cycle.swift */; };
+		8714340C241CAD6700A04FF4 /* CycleAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87143409241CAD6700A04FF4 /* CycleAnnotationView.swift */; };
+		87143410241CAD7800A04FF4 /* UIColor+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8714340F241CAD7800A04FF4 /* UIColor+Theme.swift */; };
+		87C6A979241C053400EF85FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C6A978241C053400EF85FE /* AppDelegate.swift */; };
+		87C6A97B241C053400EF85FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C6A97A241C053400EF85FE /* SceneDelegate.swift */; };
+		87C6A97D241C053400EF85FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C6A97C241C053400EF85FE /* ViewController.swift */; };
+		87C6A980241C053400EF85FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C6A97E241C053400EF85FE /* Main.storyboard */; };
+		87C6A982241C053600EF85FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C6A981241C053600EF85FE /* Assets.xcassets */; };
+		87C6A985241C053600EF85FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C6A983241C053600EF85FE /* LaunchScreen.storyboard */; };
+		87C6A98E241C077A00EF85FE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C6A98D241C077A00EF85FE /* MapKit.framework */; };
+		CBB4B26E6C317B1019D4DEBC /* Pods_Corona_Radar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 487758171094A99A161DDA40 /* Pods_Corona_Radar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31919BC6D85958398E1C1D2A /* Pods-Corona Radar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Corona Radar.debug.xcconfig"; path = "Target Support Files/Pods-Corona Radar/Pods-Corona Radar.debug.xcconfig"; sourceTree = "<group>"; };
+		487758171094A99A161DDA40 /* Pods_Corona_Radar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Corona_Radar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87143407241CAD6700A04FF4 /* ClusterAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClusterAnnotationView.swift; sourceTree = "<group>"; };
+		87143408241CAD6700A04FF4 /* Cycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cycle.swift; sourceTree = "<group>"; };
+		87143409241CAD6700A04FF4 /* CycleAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleAnnotationView.swift; sourceTree = "<group>"; };
+		8714340F241CAD7800A04FF4 /* UIColor+Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Theme.swift"; sourceTree = "<group>"; };
+		87C6A975241C053400EF85FE /* Corona Radar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Corona Radar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C6A978241C053400EF85FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87C6A97A241C053400EF85FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		87C6A97C241C053400EF85FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87C6A97F241C053400EF85FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87C6A981241C053600EF85FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87C6A984241C053600EF85FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87C6A986241C053600EF85FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87C6A98D241C077A00EF85FE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BB04F3B7DE004AAC7F928995 /* Pods-Corona Radar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Corona Radar.release.xcconfig"; path = "Target Support Files/Pods-Corona Radar/Pods-Corona Radar.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87C6A972241C053400EF85FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C6A98E241C077A00EF85FE /* MapKit.framework in Frameworks */,
+				CBB4B26E6C317B1019D4DEBC /* Pods_Corona_Radar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87C6A96C241C053400EF85FE = {
+			isa = PBXGroup;
+			children = (
+				87C6A977241C053400EF85FE /* Corona Radar */,
+				87C6A976241C053400EF85FE /* Products */,
+				87C6A98C241C077A00EF85FE /* Frameworks */,
+				FA3F639CDEC0FF05AC419CC8 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		87C6A976241C053400EF85FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87C6A975241C053400EF85FE /* Corona Radar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87C6A977241C053400EF85FE /* Corona Radar */ = {
+			isa = PBXGroup;
+			children = (
+				87143407241CAD6700A04FF4 /* ClusterAnnotationView.swift */,
+				87143408241CAD6700A04FF4 /* Cycle.swift */,
+				87143409241CAD6700A04FF4 /* CycleAnnotationView.swift */,
+				87C6A978241C053400EF85FE /* AppDelegate.swift */,
+				87C6A97A241C053400EF85FE /* SceneDelegate.swift */,
+				8714340F241CAD7800A04FF4 /* UIColor+Theme.swift */,
+				87C6A97C241C053400EF85FE /* ViewController.swift */,
+				87C6A97E241C053400EF85FE /* Main.storyboard */,
+				87C6A981241C053600EF85FE /* Assets.xcassets */,
+				87C6A983241C053600EF85FE /* LaunchScreen.storyboard */,
+				87C6A986241C053600EF85FE /* Info.plist */,
+			);
+			path = "Corona Radar";
+			sourceTree = "<group>";
+		};
+		87C6A98C241C077A00EF85FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87C6A98D241C077A00EF85FE /* MapKit.framework */,
+				487758171094A99A161DDA40 /* Pods_Corona_Radar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA3F639CDEC0FF05AC419CC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31919BC6D85958398E1C1D2A /* Pods-Corona Radar.debug.xcconfig */,
+				BB04F3B7DE004AAC7F928995 /* Pods-Corona Radar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87C6A974241C053400EF85FE /* Corona Radar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87C6A989241C053600EF85FE /* Build configuration list for PBXNativeTarget "Corona Radar" */;
+			buildPhases = (
+				60C1E32DC65AA826E97789FC /* [CP] Check Pods Manifest.lock */,
+				87C6A971241C053400EF85FE /* Sources */,
+				87C6A972241C053400EF85FE /* Frameworks */,
+				87C6A973241C053400EF85FE /* Resources */,
+				851A95F206C7F0D7111B0A8A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Corona Radar";
+			productName = "Corona Radar";
+			productReference = 87C6A975241C053400EF85FE /* Corona Radar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87C6A96D241C053400EF85FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Luxx;
+				TargetAttributes = {
+					87C6A974241C053400EF85FE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 87C6A970241C053400EF85FE /* Build configuration list for PBXProject "Corona Radar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87C6A96C241C053400EF85FE;
+			productRefGroup = 87C6A976241C053400EF85FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87C6A974241C053400EF85FE /* Corona Radar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87C6A973241C053400EF85FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C6A985241C053600EF85FE /* LaunchScreen.storyboard in Resources */,
+				87C6A982241C053600EF85FE /* Assets.xcassets in Resources */,
+				87C6A980241C053400EF85FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60C1E32DC65AA826E97789FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Corona Radar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		851A95F206C7F0D7111B0A8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Corona Radar/Pods-Corona Radar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Corona Radar/Pods-Corona Radar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Corona Radar/Pods-Corona Radar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87C6A971241C053400EF85FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C6A97D241C053400EF85FE /* ViewController.swift in Sources */,
+				87143410241CAD7800A04FF4 /* UIColor+Theme.swift in Sources */,
+				8714340B241CAD6700A04FF4 /* Cycle.swift in Sources */,
+				8714340C241CAD6700A04FF4 /* CycleAnnotationView.swift in Sources */,
+				87C6A979241C053400EF85FE /* AppDelegate.swift in Sources */,
+				8714340A241CAD6700A04FF4 /* ClusterAnnotationView.swift in Sources */,
+				87C6A97B241C053400EF85FE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87C6A97E241C053400EF85FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87C6A97F241C053400EF85FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87C6A983241C053600EF85FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87C6A984241C053600EF85FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87C6A987241C053600EF85FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87C6A988241C053600EF85FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87C6A98A241C053600EF85FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31919BC6D85958398E1C1D2A /* Pods-Corona Radar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4VH7DU94G;
+				INFOPLIST_FILE = "Corona Radar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luxx.Corona-Radar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87C6A98B241C053600EF85FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB04F3B7DE004AAC7F928995 /* Pods-Corona Radar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4VH7DU94G;
+				INFOPLIST_FILE = "Corona Radar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luxx.Corona-Radar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87C6A970241C053400EF85FE /* Build configuration list for PBXProject "Corona Radar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C6A987241C053600EF85FE /* Debug */,
+				87C6A988241C053600EF85FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87C6A989241C053600EF85FE /* Build configuration list for PBXNativeTarget "Corona Radar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C6A98A241C053600EF85FE /* Debug */,
+				87C6A98B241C053600EF85FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87C6A96D241C053400EF85FE /* Project object */;
+}
